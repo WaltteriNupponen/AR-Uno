@@ -33,7 +33,7 @@ namespace SpatialMap_SparseSpatialMap
             var oneshot = camera.GetComponent<OneShot>();
             if (!oneshot) { return; }
 
-            renderPass.Setup(oneshot, renderer.cameraColorTarget);
+            renderPass.Setup(oneshot, renderer.cameraColorTargetHandle); //Tässä luki cameraColorTarget
             renderer.EnqueuePass(renderPass);
         }
 
