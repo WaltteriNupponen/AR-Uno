@@ -5,4 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes: []
-  m_configObjects: {}
+  m_configObjects:
+    EasyAR.Settings: {fileID: 11400000, guid: 8887f3a63f92a18429d091306a6746c4, type: 2}
+  m_UseUCBPForAssetBundles: 0
