@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6f473100420cf84d93b0a397b3d73b2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265478
+  packageName: Sci-Fi Projection Hologram Effect
+  packageVersion: 1.0.1
+  assetPath: Assets/Solodream/ProjectionHologramEffect/PostProcessingVolume/URP_GlobalVolume.asset
+  uploadId: 627679

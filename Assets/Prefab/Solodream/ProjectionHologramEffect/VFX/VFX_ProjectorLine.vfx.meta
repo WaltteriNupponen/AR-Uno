@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 68106356244f4c54fbd1be95d5415e83
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265478
+  packageName: Sci-Fi Projection Hologram Effect
+  packageVersion: 1.0.1
+  assetPath: Assets/Solodream/ProjectionHologramEffect/VFX/VFX_ProjectorLine.vfx
+  uploadId: 627679

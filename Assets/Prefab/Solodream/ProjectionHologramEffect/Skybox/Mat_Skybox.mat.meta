@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 685de24628f9e8a4c8fb863c7fe01e19
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265478
+  packageName: Sci-Fi Projection Hologram Effect
+  packageVersion: 1.0.1
+  assetPath: Assets/Solodream/ProjectionHologramEffect/Skybox/Mat_Skybox.mat
+  uploadId: 627679

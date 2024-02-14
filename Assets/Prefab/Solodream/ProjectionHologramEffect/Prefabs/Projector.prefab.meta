@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: afc00cc4376e22e498450f4368cc0d1a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265478
+  packageName: Sci-Fi Projection Hologram Effect
+  packageVersion: 1.0.1
+  assetPath: Assets/Solodream/ProjectionHologramEffect/Prefabs/Projector.prefab
+  uploadId: 627679
