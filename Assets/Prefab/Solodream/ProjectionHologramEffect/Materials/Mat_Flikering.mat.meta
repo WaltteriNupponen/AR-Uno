@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 36ad97ed8d93e234aa1674a0a93a6b43
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265478
+  packageName: Sci-Fi Projection Hologram Effect
+  packageVersion: 1.0.1
+  assetPath: Assets/Solodream/ProjectionHologramEffect/Materials/Mat_Flikering.mat
+  uploadId: 627679

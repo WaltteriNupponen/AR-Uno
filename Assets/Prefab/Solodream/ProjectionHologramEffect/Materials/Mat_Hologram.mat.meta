@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0b3848defe6dabe439058c1edcc66a9a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265478
+  packageName: Sci-Fi Projection Hologram Effect
+  packageVersion: 1.0.1
+  assetPath: Assets/Solodream/ProjectionHologramEffect/Materials/Mat_Hologram.mat
+  uploadId: 627679

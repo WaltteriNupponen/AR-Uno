@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fa18c4859b4e7304ba89603aff64f64c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265478
+  packageName: Sci-Fi Projection Hologram Effect
+  packageVersion: 1.0.1
+  assetPath: Assets/Solodream/ProjectionHologramEffect/PostProcessingVolume/URP_GlobalVolume.prefab
+  uploadId: 627679

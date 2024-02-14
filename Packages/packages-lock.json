@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.easyar.sense": {
-      "version": "file:C:/Users/olli.laura/Downloads/EasyARSenseUnityPlugin_4.6.3+3029.cb846598/com.easyar.sense-4.6.3+3029.cb846598.tgz",
+      "version": "file:I:/EasyARSenseUnityPlugin_4.6.3+3029.cb846598/com.easyar.sense-4.6.3+3029.cb846598.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -32,7 +32,7 @@
     },
     "com.unity.collections": {
       "version": "1.4.0",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.6.6",
@@ -79,11 +79,18 @@
     },
     "com.unity.ide.visualstudio": {
       "version": "2.0.22",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.vscode": {
+      "version": "1.2.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
@@ -95,7 +102,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -109,7 +116,7 @@
     },
     "com.unity.render-pipelines.core": {
       "version": "16.0.5",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.4",
@@ -133,7 +140,7 @@
     },
     "com.unity.rendering.light-transport": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.collections": "1.4.0",
@@ -143,7 +150,7 @@
     },
     "com.unity.searcher": {
       "version": "4.9.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -157,7 +164,7 @@
     },
     "com.unity.shadergraph": {
       "version": "16.0.5",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "16.0.5",
