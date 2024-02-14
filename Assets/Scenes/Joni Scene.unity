@@ -119,221 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &4994519
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4994520}
-  - component: {fileID: 4994522}
-  - component: {fileID: 4994521}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &4994520
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4994519}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 573996579}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1354, y: 912}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4994521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4994519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "UNO RULES\n\n\nSetup: The game is for 2-10 players, ages 7 and over. Every
-    player starts with seven cards, and they are dealt face down. The rest of the
-    cards are placed in a Draw Pile face down. Next to the pile a space should be
-    designated for a Discard Pile. The top card should be placed in the Discard Pile,
-    and the game begins!\r\n\r\r\nGame Play: The first player is normally the player
-    to the left of the dealer (you can also choose the youngest player) and gameplay
-    usually follows a clockwise direction. Every player views his/her cards and tries
-    to match the card in the Discard Pile.\r\n\r\r\nBasic uno Game Rules\r\nYou have
-    to match either by the number, color, or the symbol/Action. For instance, if
-    the Discard Pile has a red card that is an 8 you have to place either a red card
-    or a card with an 8 on it. You can also play a Wild card (which can alter current
-    color in play).\r\n\r\nIf the player has no matches or they choose not to play
-    any of their cards even though they might have a match, they must draw a card
-    from the Draw pile. If that card can be played, play it. Otherwise, keep the
-    card, and the game moves on to the next person in turn. You can also play a Wild
-    card, or a Wild Draw Four card on your turn.\r\n\r\r\nNote: If the first card
-    turned up from the Draw Pile (to form the Discard Pile) is an Action card, the
-    Action from that card applies and must be carried out by the first player (as
-    stated, it is usually the player to the dealer\u2019s left). The exceptions are
-    if a Wild or Wild Draw Four card is turned up.\r\n\r\nIf it is a Wild card, Mattel
-    has now stated that the first player to start (usually the one on the dealer\u2019s
-    left), can choose whatever color to begin play. If the first card is a Wild Draw
-    Four card \u2013 Return it to the Draw Pile, shuffle the deck, and turn over
-    a new card. At any time during the game, if the Draw Pile becomes depleted and
-    no one has yet won the round, take the Discard Pile, shuffle it, and turn it
-    over to regenerate a new Draw Pile.\r\n\r\nTake note that you can only put down
-    one card at a time; you cannot stack two or more cards together on the same turn.
-    For example, you cannot put down a Draw Two on top of another Draw Two, or Wild
-    Draw Four during the same turn, or put down two Wild Draw Four cards together.\r\n\r\r\nThe
-    game continues until a player has one card left. The moment a player has just
-    one card they must yell \u201CUNO!\u201D. If they are caught not saying \u201CUno\u201D
-    by another player before the next player has taken their turn, that player must
-    draw two new cards as a penalty. Assuming that the player is unable to play/discard
-    their last card and needs to draw, but after drawing, is then able to play/discard
-    that penultimate card, the player has to repeat the action of calling out \u201CUno\u201D.
-    The bottom line is \u2013 Announcing \u201CUno\u201D needs to be repeated every
-    time you are left with one card.\r\n\r\nOnce a player has no cards remaining,
-    the game round is over, points are scored, and the game begins over again. Normally,
-    everyone tries to be the first one to achieve 500 points, but you can also choose
-    whatever points number to win the game, as long as everyone agrees to it.\r\n\r\nAction
-    Cards: Besides the number cards, there are several other cards that help mix
-    up the game. These are called Action or Symbol cards.\r\n\r\nuno action cards\r\n\r\nReverse
-    \u2013 If going clockwise, switch to counterclockwise or vice versa. It can only
-    be played on a card that matches by color, or on another Reverse card. If turned
-    up at the beginning of play, the dealer goes first, and the player to the dealer\u2019s
-    right is next (normally it would be the player to the dealer\u2019s left).\r\n\r\r\nSkip
-    \u2013 When a player places this card, the next player has to skip their turn.
-    It can only be played on a card that matches by color, or on another Skip card.
-    If turned up at the beginning of play, the first player (to the dealer\u2019s
-    left) loses his/her turn. The next player to that player\u2019s right starts
-    the game instead.\n\r\nDraw Two \u2013 When a person places this card, the next
-    player will have to pick up two cards and forfeit his/her turn. It can only be
-    played on a card that matches by color, or on another Draw Two. If turned up
-    at the beginning of play, the first player draws two cards and gets skipped.\n\r\nWild
-    \u2013 This card represents all four colors, and can be placed on any card. The
-    player has to state which color it will represent for the next player. It can
-    be played regardless of whether another card is available. If turned up at the
-    beginning of play, the first player chooses what color to continue play.\n\r\nWild
-    Draw Four \u2013 This acts just like the wild card except that the next player
-    also has to draw four cards as well as forfeit his/her turn. With this card,
-    you must have no other alternative cards to play that matches the color of the
-    card previously played. If you play this card illegally, you may be challenged
-    by the other player to show your hand to him/her. If guilty, you need to draw
-    4 cards. If not, the challenger needs to draw 6 cards instead. If turned up at
-    the beginning of play, return this card to the Draw pile, shuffle, and turn up
-    a new one.\r\n\r\r\nScoring and Winning: When a player no longer has any cards
-    and the game ends, he/she receives points. All opponents\u2019 cards are given
-    to the winner and points are counted. This also applies even if the last card
-    is an Action card, such as a Draw Two or a Wild Draw Four \u2013 The next player
-    must draw the required cards which will then be tallied up. The first player
-    to attain 500 points is the winner.\r\n\r\nThe scoring for the cards is as follows:\r\n\r\nNumbered
-    cards (0-9) \u2013 Face value\r\nDraw Two/Skip/Reverse \u2013 20 points each\r\nWild/Wild
-    Draw Four \u2013 50 points each\r\nWild Swap Hands/Wild Customizable cards \u2013
-    40 points each\n\nBeloved Classic uno Rules\n\r\nStacking\r\nWhen a Draw Two
-    or Wild Draw Four is played, play the same type of card to add to the penalty
-    and pass it down to the next player.\r\n\r\n7-0\r\nPlaying a 7 allows you swap
-    hands with another player, and playing a 0 forces all players to take their hand
-    and pass it down in the order of play.\r\n\r\nJump-In\r\nFor the first time on
-    consoles, Jump-In is available for play! Whenever a card is played, if you hold
-    an identical card, you may play that card out of turn."
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &4994522
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4994519}
-  m_CullTransparentMesh: 1
 --- !u!1001 &12612035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1662,7 +1447,7 @@ SpriteRenderer:
   m_Size: {x: 17.913671, y: 24.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &435420010
@@ -1980,108 +1765,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6977f7000aded7d4aa6e242871a02a0d, type: 3}
   m_PrefabInstance: {fileID: 560460089}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &573996575
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 573996579}
-  - component: {fileID: 573996578}
-  - component: {fileID: 573996577}
-  - component: {fileID: 573996576}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &573996576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573996575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &573996577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573996575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &573996578
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573996575}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &573996579
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573996575}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4994520}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &611528757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6163,6 +5846,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a27faf93e82918b4cbc0f9766ec1c2ec, type: 3}
   m_PrefabInstance: {fileID: 2111176903}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8745229101139470107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900991338889034405, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340564714863961632, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
+      propertyPath: m_Name
+      value: Game Rules Menu
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22a313c3bd440b74ea5d3c0451a5b703, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6177,5 +5957,5 @@ SceneRoots:
   - {fileID: 1327229438}
   - {fileID: 1289148366}
   - {fileID: 435420010}
-  - {fileID: 573996579}
+  - {fileID: 8745229101139470107}
   - {fileID: 940456024}
