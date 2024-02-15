@@ -1,0 +1,8 @@
+C:/Users/nupponen.waltteri/Desktop/AR-Uno/.utmp/Debug/4j4q2k2p/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/nupponen.waltteri/Desktop/AR-Uno/.utmp/Debug/4j4q2k2p/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/nupponen.waltteri/Desktop/AR-Uno/.utmp/Debug/4j4q2k2p/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+C:/Users/nupponen.waltteri/Desktop/AR-Uno/.utmp/Debug/4j4q2k2p/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/nupponen.waltteri/Desktop/AR-Uno/.utmp/Debug/4j4q2k2p/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
+C:/Users/nupponen.waltteri/Desktop/AR-Uno/.utmp/Debug/4j4q2k2p/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/nupponen.waltteri/Desktop/AR-Uno/.utmp/Debug/4j4q2k2p/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/nupponen.waltteri/Desktop/AR-Uno/.utmp/Debug/4j4q2k2p/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
