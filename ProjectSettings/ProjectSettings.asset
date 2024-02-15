@@ -138,14 +138,7 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 1
-  preloadedAssets:
-  - {fileID: 4800000, guid: ea9a295053a0dc440b9698a7f41d9741, type: 3}
-  - {fileID: 4800000, guid: 1499e61b3897c4a4b9318a56ca931b8a, type: 3}
-  - {fileID: 4800000, guid: 798d6e253a35a144d94205b80c8fd48b, type: 3}
-  - {fileID: 4800000, guid: ae539cb2b258bd047a57837fd579cc80, type: 3}
-  - {fileID: 4800000, guid: 58841e6e22debfc43ba09a0cf58cd92d, type: 3}
-  - {fileID: 4800000, guid: a336f422ffebbec4c89b4dac26022d5f, type: 3}
-  - {fileID: 11400000, guid: 8887f3a63f92a18429d091306a6746c4, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -167,7 +160,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.com.UnoMasters.EasyAR.com.UnoMasters.EasyAR
+    Android: com.com.com.UnoMasters.EasyAR.com.UnoMasters.EasyAR.com.com.UnoMasters.EasyAR.com.UnoMasters.EasyAR
     Standalone: com.UnoMasters.AR-Uno
   buildNumber:
     Bratwurst: 0
@@ -265,8 +258,8 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 3
-  AndroidTargetDevices: 0
+  AndroidTargetArchitectures: 15
+  AndroidTargetDevices: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
@@ -881,7 +874,7 @@ PlayerSettings:
     tvOS: 1
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
-  allowUnsafeCode: 0
+  allowUnsafeCode: 1
   useDeterministicCompilation: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
