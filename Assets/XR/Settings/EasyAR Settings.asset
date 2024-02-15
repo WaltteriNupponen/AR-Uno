@@ -44,4 +44,4 @@ MonoBehaviour:
   AREngineSDK: 0
   DisableARCoreAREngine: 0
   Verify32bitOnlyARCoreWhenBuild: 1
-  VerifyLicenseWhenBuild: 1
+  VerifyLicenseWhenBuild: 0
